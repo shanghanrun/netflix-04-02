@@ -1,0 +1,10 @@
+.movie-card2 {
+	height: 220px;
+	width: 150px;
+	background-size: cover;
+	background-position: center;
+	border-radius: 10px;
+
+	cursor: pointer;
+	transition: 0.5s;
+}

@@ -1,0 +1,62 @@
+.card {
+
+	border-radius: 10px;
+	position: relative;
+	/* 카드에 position 추가 */
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.4);
+
+}
+
+.card img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: 10px;
+	transition: transform 0.3s ease;
+	/* 트랜지션 설정 */
+}
+
+.card img:hover {
+	transform: scale(1.8);
+	/* 호버할 때 이미지를 1.5배로 확대 */
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.4);
+}
+
+.isSecond {
+	transform: scale(3);
+}
+
+.reserve-button {
+	margin-top: 110px;
+	margin-left: -30px;
+	width: 130px;
+	padding: 5px;
+	background-color: rgb(253, 174, 236);
+	border-radius: 10px;
+	transition: 0.3s;
+}
+
+.reserve-button:hover {
+	font-weight: bold;
+	cursor: pointer;
+	box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.4);
+	transform: scale(1.2);
+}
+
+.transparent {
+	opacity: 0.6;
+}
+
+.reserve-text{
+ margin-left: -13px;
+ margin-top: -10px
+}
+
+@media (max-width: 790px) {
+	.reserve-text{
+		display:none;
+	}
+	.table {
+		width: 90%;
+	}
+}

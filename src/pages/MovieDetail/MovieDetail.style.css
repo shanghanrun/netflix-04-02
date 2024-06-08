@@ -1,0 +1,21 @@
+
+
+.similar, .recommendations{
+	transition: all 0.2s;
+}
+.similar:hover{
+	transform: scale(1.15)
+}
+.recommendations:hover{
+	transform: scale(1.15)
+}
+.active {
+	color: white;
+}
+.inactive{
+	color: rgb(153, 153, 195);
+	opacity: 0.5
+}
+.col-lg-6{
+	
+}

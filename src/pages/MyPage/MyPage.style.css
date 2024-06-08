@@ -1,0 +1,10 @@
+.mypage{
+	color: aquamarine
+}
+
+.mypage-body{
+	border: 2px solid red;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 10px 40px;
+}

@@ -1,0 +1,20 @@
+.banner {
+	height: 56vh;
+	background-position: center;
+	background-repeat: no-repeat;
+	/* 이미지 반복 제거 */
+	background-size: cover;
+	/* 화면에 맞게 이미지 크기 조절 */
+}
+
+.banner:before {
+	content: '';
+	background: linear-gradient(to top, rgb(0, 0, 0, 0.6), transparent);
+	position: absolute;
+	left: 0;
+	height: 56vh;
+	width: 100%;
+}
+.banner-text-area{
+	width: 70%;
+}

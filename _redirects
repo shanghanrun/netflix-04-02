@@ -1,0 +1,6 @@
+/api/* http://hm-shopping4.ap-southeast-2.elasticbeanstalk.com/api/:splat 200
+
+
+/gotoshopping* https://teal-kleicha-2ddcc1.netlify.app
+
+/* /index.html 200
